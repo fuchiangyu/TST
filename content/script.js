@@ -51,7 +51,7 @@ function clearText() {
 // 加载规则说明内容
 function loadNotes() {
     // 使用 Fetch API 加载外部 JSON 文件
-    fetch("notes.json")
+    fetch("content/notes.json")
         .then(response => response.json()) // 解析 JSON 内容
         .then(data => {
             // 获取 HTML 容器
